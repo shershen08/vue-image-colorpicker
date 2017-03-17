@@ -1,0 +1,27 @@
+{
+  "name": "vue-image-colorpicker",
+  "version": "0.9.0",
+  "description": "Color selection from image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shershen08/vue-image-colorpicker.git"
+  },
+  "keywords": [
+    "colorpicker",
+    "image",
+    "select",
+    "color",
+    "vuejs",
+    "vue"
+  ],
+  "author": "Mikhail Kuznetcov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shershen08/vue-image-colorpicker/issues"
+  },
+  "homepage": "https://github.com/shershen08/vue-image-colorpicker#readme"
+}
