@@ -1,9 +1,20 @@
 ## Image colorpicker
 
-**Develement in progress**
+The color picking tool for getting image pixel color value
 
 ## Usage
 
+Add compoment for usage in the script section:
+
+```
+    import ImageColorPicker from 'vue-image-colorpicker'
+```
+
+Use in the template section
+
+```
+    <image-color-picker showcolor="true"></image-color-picker>
+```
 
 ## Options
 
