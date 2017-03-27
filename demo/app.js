@@ -1,5 +1,7 @@
-var __app__ = new Vue({
-  data: {},
+import Vue from 'vue'
+import App from './App.vue'
+
+new Vue({
   el: '#app',
-  template: '<image-color-picker imagesrc="test-img.jpg" toggleselect="true"></image-color-picker>'
+  render: h => h(App)
 })

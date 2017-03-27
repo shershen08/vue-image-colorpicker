@@ -2,7 +2,8 @@
     <div class="st-picker">
             <div class="st-picker__thumbnail">
                 <div v-show="isEnabled" ref="preview" class="st-picker__preview"></div>
-                <input ref="inputfile" @change="init" v-if="selectimage" id="inputFileToLoad" type="file" v-model="imageValue"/>
+                <input ref="inputfile" v-on:change="init" v-if="selectimage" id="inputFileToLoad" type="file"/>
+                 <!--v-model="imageValue"-->
                 <div id="imagePlaceHolder">
                     <img :src="imageValue" ref="prevewImage"
                     v-on:click="onSelectColor"
@@ -16,3 +17,4 @@
         </div>
 </template>
 <script src="./ImgColorPicker.js"></script>
+<style src="./ColorPickerStyle.css" scoped></style>
